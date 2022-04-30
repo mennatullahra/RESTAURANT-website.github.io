@@ -1,0 +1,56 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+</head>
+<body>
+    <div class="nav">
+        <a href="">Blog</a> 
+        <a href="">Menu</a> 
+        <a href="">Gallery</a>
+        <a href="">Contacts</a>
+        <a href="">About</a>
+        <a href="">Home</a> 
+    </div>
+    <div class="countainer">
+        <div class="RestaurantName">
+           <h1 class="heading">Restaurant</h1>
+            <h2 id="slogan">French Restaurant 
+                <br> 
+                <span id="nxtLine">
+                    We’re the best restaurant in town
+                </span>
+            </h2>
+            <button id="LearnMore" class="whiteButton" onclick="viewContent()">Learn more</button>
+            <a href="Booking.html"><button class="yellowButton" >Book A Visit</button></a>
+            
+        </div>
+    </div>
+    <div style="height:580px;"></div>
+    <div id="content"></div>
+    <img src="backGround.jpg" id="bg" alt="">
+    <script>
+        function viewContent(){
+            var Request = new XMLHttpRequest();
+            Request.onreadystatechange = function (){
+                if(this.readyState === 4 && this.status === 200){
+                    document.getElementById("content").innerHTML = Request.responseText;
+                }
+            }
+            Request.open("GET","Learn.html");
+            Request.send();
+            setTimeout(scrollWin, 5);
+        }
+        
+        function scrollWin() 
+        {
+             window.scrollTo(0, 868.63);
+        }
+    </script>
+</body>
+</html>

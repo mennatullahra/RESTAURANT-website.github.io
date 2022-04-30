@@ -1,0 +1,154 @@
+    body{
+        margin: 0;
+    }
+    #bg{
+        border-color: #353535;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
+    .nav{
+        height: 40px;
+        background-color:#343233;
+        opacity: 0.9;
+        text-align: right;
+        padding: 10px 5px 5px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        margin: 19px;
+        font-size: 1.4rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+    }
+    .countainer{
+        position: relative;
+    }
+    .RestaurantName{
+        position: absolute;
+        top: 50px;
+        left: 130px;
+        text-align: center;
+    }
+    .heading{
+        color: #ebd534;
+        font-size: 9rem;
+        font-family: 'Allura', cursive;
+        font-weight: 900;
+        text-shadow: 2px 2px #a18b4f;
+        margin-bottom: 0;
+    }
+    #slogan{
+        text-align: center;
+        color: white;
+        font-size: 2rem;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        text-shadow: 1px 1px #AEAEAE;
+        margin-top: 0.5rem;
+    }
+    #nxtLine{
+        font-family: 'Allura', cursive;
+        font-weight: 200;
+        text-shadow: 1px 1px black;
+    }
+    .whiteButton{
+    background-color: white;
+    border: none;
+    color:#ebd534;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    }
+    .yellowButton{
+        background-color: #ebd534;
+        border: none;
+        color:white;
+        padding: 15px 41.25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    /*********************************************************/
+    .gray-container{
+        margin:0px 30px 0px 30px;
+        height: 101.8%;
+        width: 650px;
+        background:rgba(52, 50, 51,0.75);
+        position: relative;
+        
+    }
+    .yellow-container{
+        position: absolute;
+        top: 10%;
+        left: 15%;
+        height: 80%;
+        width: 400px;
+        background: rgba(235, 213, 52,0.75);
+        border-radius: 25px;
+    }
+    .title-container{
+        width: 120%;
+        height: 70px;
+        text-align: center;
+        background: rgba(255,255,255,.75);
+        position: absolute;
+        top: 20px;
+        right: -40px;
+        z-index: +1;   
+        font-size: 2rem;
+        font-family: 'Allura', cursive;
+        font-weight: 600;
+    }
+    .title{
+        margin: 0;
+        opacity: 1;
+        color: rgba(52, 50, 51);
+    }
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        font-size: 1.6rem;
+    }
+    form{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        color: white;
+    }
+    .myInput{
+        background: transparent;
+        margin-left: 20px;
+        margin-right: 20px;
+        border:none;
+        border-bottom:1px solid white;
+        color: white;
+    }
+    .learnMoreContent{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+        font-size: 1rem;
+        text-align: center;
+        padding: 40px;
+        background-color: white;
+        color: black !important;
+    }
+    .content{
+        position: absolute;
+
+    }
+    .learnParagraph{
+    font-size: 1.3rem; margin: 0 250px 0 250px; height: 180px;}

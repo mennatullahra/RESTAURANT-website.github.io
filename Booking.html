@@ -1,0 +1,36 @@
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@200;300;400;700&display=swap" rel="stylesheet">  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+</head>
+<body>
+    <div class="gray-container">
+        <div class="yellow-container">
+            <div class="title-container">
+                <h2 class="title">- Restaurant -</h2>
+                
+                <p>Book Now!</p>
+                <form action="/action_page.php">
+                    <label for="fname">First name</label>
+                    <input type="text" class="myInput" id="fname" name="fname"><br><br><br>
+                    <label for="lname">Last name</label>
+                    <input type="text" class="myInput" id="lname" name="lname"><br><br><br>
+                    <label for="quantity">Number of Persons</label>
+                    <input type="number" class="myInput" id="quantity" name="quantity" min="1" max="10"><br><br><br>
+                    <label for="birthdaytime">Date & Time</label>
+                    <input type="datetime-local" class="myInput" id="birthdaytime" name="birthdaytime"><br><br>
+                    
+                    <input style="position: fixed; left:170px;top: 475;" type="submit" class="whiteButton" value="Submit">
+                    
+                    </form>
+                    <a href="Home.html"><button style="position: fixed; left:340px;top: 475px;" class="yellowButton">Back</button></a>
+            </div>
+        </div>
+    </div>
+    <img src="backGround.jpg" id="bg" alt="">
+</body>
+</html>
